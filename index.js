@@ -1,7 +1,8 @@
 const buildImageElm = (imageList) => {
     // div要素を作成してクラスを追加
     let baseElm = document.createElement('div');
-    baseElm.classList.add('col-2');
+    baseElm.classList.add('col-6');
+    baseElm.classList.add('col-md-2');
     baseElm.classList.add('mb-3');
 
     // img要素を作成して属性を設定
