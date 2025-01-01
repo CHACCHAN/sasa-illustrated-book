@@ -1,0 +1,7 @@
+body {
+    overflow-x: hidden;
+}
+
+#imageHover:hover {
+    box-shadow: 0 0 20px black;
+}
